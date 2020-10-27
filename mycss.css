@@ -1,0 +1,90 @@
+body {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px 20px 10px; /* Поля вокруг текста */
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+nav, footer {
+    background-color: #CDEDF6;
+    border-radius: 0.25rem;
+    padding: 0.6rem;
+}
+input {
+    width: 22em;
+}
+input[type='submit'] {
+    width: 8em;
+}
+
+nav span {
+    padding: 0 0.5rem;
+}
+
+#book-list {
+    padding-top: 10px;
+}
+.head-cell{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.author-cell{
+    flex: 3;
+}
+.grade-cell{
+    flex: 1;
+}
+.title-cell{
+    flex: 3;
+}
+.header-cell{
+    font-weight: bold;
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+
+}
+.table-book-list{
+    width: 100%;
+}
+.head-text{
+    margin-bottom: 10px;
+}
+.input-row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+#author-add{
+    margin-top: 20px;
+
+}
+.hinne-author-add{
+    width: 40%;
+}
+.name-col{
+    flex: 1;
+    text-align: right;
+}
+.input-col{
+    width: 20%;
+    flex: 2;
+    margin-left: 10px;
+}
+.input-text{
+    width: 60%;
+}
+.input-buttons{
+    display: inline-block;
+}
+.div-button{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    margin-left: -10px;
+}
